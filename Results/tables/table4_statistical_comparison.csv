@@ -1,0 +1,2 @@
+Comparison,Metric,DistilBERT Mean,GPT-2 Mean,t-statistic,p-value,Cohen's d,Significant
+DistilBERT vs GPT-2,Cosine Similarity,0.9998,0.9994,8.9479,0.000000,0.7508,Yes

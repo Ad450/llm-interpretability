@@ -1,0 +1,8 @@
+{
+  "model_name": "gpt2",
+  "num_prompts": 47,
+  "num_layers_fp32": 12,
+  "num_layers_int8": 12,
+  "num_heads": 12,
+  "timestamp": "2026-02-16T11:56:36.837547"
+}

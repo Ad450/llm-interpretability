@@ -1,0 +1,20 @@
+{
+  "distilbert_summary": {
+    "mean_cosine_sim": 0.9998175501823425,
+    "std_cosine_sim": 0.0001102897513192147,
+    "mean_mae": 0.0014710352988913655,
+    "std_mae": 0.0008584174211136997,
+    "mean_top5_overlap": 0.9867917610204697,
+    "std_top5_overlap": 0.014720096720931173
+  },
+  "gpt-2_summary": {
+    "mean_cosine_sim": 0.9993986487388611,
+    "std_cosine_sim": 0.0007820661994628608,
+    "mean_mae": 0.0022967937402427197,
+    "std_mae": 0.0016414487035945058,
+    "mean_top5_overlap": 0.9845893930960672,
+    "std_top5_overlap": 0.030578240730619433
+  },
+  "distilbert_layer_stats": [
+    {
+      

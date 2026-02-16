@@ -1,0 +1,77 @@
+======================================================================
+QUANTIZATION IMPACT ON ATTENTION PATTERNS
+Final Analysis Report
+======================================================================
+
+Generated: 2026-02-16 12:14:27
+Total Prompts: 47
+
+======================================================================
+EXECUTIVE SUMMARY
+======================================================================
+
+DistilBERT (6 layers):
+  • Mean Cosine Similarity: 0.9998
+  • Mean Absolute Error: 0.001471
+  • Top-5 Token Overlap: 0.9868
+  • Most Stable Layer: 0
+  • Least Stable Layer: 4
+
+GPT-2 (12 layers):
+  • Mean Cosine Similarity: 0.9994
+  • Mean Absolute Error: 0.002297
+  • Top-5 Token Overlap: 0.9846
+  • Most Stable Layer: 0
+  • Least Stable Layer: 3
+
+======================================================================
+ARCHITECTURE COMPARISON
+======================================================================
+
+Cosine Similarity Comparison:
+  • DistilBERT: 0.9998
+  • GPT-2: 0.9994
+  • Difference: 0.0004
+  • p-value: 0.000000
+  • Cohen's d: 0.7508
+  • Statistically Significant: Yes
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. DistilBERT shows higher attention pattern preservation after quantization.
+
+2. GPT-2 is more sensitive to INT8 quantization.
+
+3. The difference between architectures is statistically significant (p < 0.05).
+
+4. Sensitive Layers (below mean - 1 SD):
+   • DistilBERT: []
+   • GPT-2: See layer-wise analysis
+
+======================================================================
+CONCLUSION
+======================================================================
+
+INT8 quantization has a measurable but generally moderate impact on attention
+patterns in both DistilBERT and GPT-2. Overall cosine similarity remains high
+(>0.95 for both models), indicating that quantization preserves the general
+structure of attention patterns despite the reduction in precision.
+
+Specifically:
+  • DistilBERT maintains 0.9998 cosine similarity
+  • GPT-2 maintains 0.9994 cosine similarity
+  • Both models show >98% Top-5 token overlap
+  • Mean absolute errors are < 0.003 for both models
+
+These results suggest that INT8 quantization is a viable approach for
+model compression with minimal impact on attention mechanisms.
+
+Files Generated:
+  • 6 visualization figures (PNG + PDF)
+  • 4 summary tables (CSV + LaTeX)
+  • Complete metrics datasets
+  • Statistical analysis results
+
+======================================================================
