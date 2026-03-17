@@ -280,7 +280,7 @@ quant_config = BitsAndBytesConfig(
 
 **Solution**:
 
-1. Reduce number of prompts (use first 20 instead of 47)
+1. Reduce number of prompts (use first 60 )
 2. Process models separately (run DistilBERT first, then GPT-2)
 3. Clear outputs before running
 
@@ -333,11 +333,9 @@ Contributions are welcome! Areas for expansion:
 
 For questions, suggestions, or collaborations:
 
-- **GitHub Issues**: [Project Issues](https://github.com/YOUR_USERNAME/attention-stability-research/issues)
-- **Email**: your.email@example.com
+- **Email**: adjeimanue@gmail.com
 
 ---
 
-**Last Updated**: February 2026  
 **Notebook Version**: 1.0  
 **Compatible with**: Google Colab, Jupyter Notebook (with GPU)
