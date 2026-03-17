@@ -75,14 +75,7 @@ All dependencies are installed automatically in the notebook:
 - **Target**: Linear/attention layers only
 
 ### Dataset
-
-**47 curated prompts** stratified across:
-
-| Dimension      | Categories                                     | Count      |
-| -------------- | ---------------------------------------------- | ---------- |
-| **Length**     | Short (<20 tokens), Medium (20-50), Long (>50) | 14, 21, 12 |
-| **Domain**     | Factual, Creative, Technical                   | 20, 20, 7  |
-| **Complexity** | Simple syntax, Complex syntax                  | 28, 19     |
+wikitext-2 open source dataset
 
 ### Metrics
 
